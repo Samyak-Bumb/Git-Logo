@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#main{
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#logo{
+  width: 50vh;
+  height: 50vh;
+  background-color: #f05030;
+  border-radius: 4vh;
+  transform: rotate(45deg);
+}
+.line{
+  background-color: #f0ffff;
+}
+.c{
+  background-color: #f0ffff;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 5vh;
+}
+#lineLong{
+  top: 23vh;
+  left: 5vh;
+  height: 4vh;
+  width: 80%;
+  position: relative;
+  transform: rotate(45deg);
+}
+#lineShort{
+  top: 6vh;
+  height: 4vh;
+  width: 35vh;
+  position: relative;
+}
+#cOne{
+  top: -1vh;
+  left: 7vh;
+  position: relative;
+}
+#cTwo{
+  top: -11vh;
+  left: 33vh;
+  position: relative;
+}
+#cThree{
+  top: 5vh;
+  left: 33vh;
+  position: relative;
+}
